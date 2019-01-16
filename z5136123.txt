@@ -1,0 +1,115 @@
+===========================
+- Work Diary -
+- Ekaterina Tsypkaikina -
+===========================
+Last edited: 31 Oct 2018.
+
+==========
+= Week 2 =
+==========
+- 31 July 2018 -
+Created the Trello board, filled out the tasks, organised the material.
+Organised the group to work collectively on it.
+Created the BitBucket repo.
+
+- 01 Aug 2018 -
+Met with the group. Planning and discussion.
+Outline of the plan for the next days.
+Installed the git on the local machine and went through the tutorial.
+Created the work diary.
+
+- 02 Aug 2018 -
+Created the file for app name suggestions.
+
+==========
+= Week 3 =
+==========
+- 07 Aug 2018 -
+Attended the meeting.
+Updated Trello with the information from assessment materials for each deliverable.
+Added CS9900 to BitBucket as well, as previously only added to the Trello board.
+
+- 08 Aug 2018 -
+Began the Django tutorial.
+Meeting.
+
+- 09 Aug 2018 -
+Sent the skill description.
+Added assessment information.
+
+WA: Model who?
+Name suggestions.
+User count and repos.
+Large database.
+WebCMS - extra information.
+--
+1) DB
+2) Scaling? Ask
+3) NodeJS
+4) APIs: Looging in - Password
+
+tools\APIs\frameworks\languagest\software components are we going to use, I can add more technical details into the Epic 4: automated matching
+
+============
+= Week 4-6 =
+============
+-Breaks in input due to complications after the recovery from ongoing health issues.-
+Conducted a group call.
+Adjusted the processes to run more organisedly.
+More specific task allocation and planning.
+Introduced an analog of 'daily scrum'.
+
+==========
+= Week 7 =
+==========
+Call, re-grouping, system set-up, task allocation (partial).
+Volunteering for front-end design and co-development.
+Demo. Coordinated development plan for the following sprint.
+Did the Django tutorial. Went through the code of the project.
+Partially did the visual screen mock-ups.
+
+==========
+= Week 8 =
+==========
+Started working on the SearchForm, refreshed the JavaScript and HTML/CSS knowledge.
+Developed the drafts for the CandidateSearch and JobSearch forms.
+Discussed further development during the meeting. Decided on the matching formula with Chris.
+Worked on the search forms' basics.
+Fully updated Trello to be reflective of the current process.
+Went through the changes, layout and logic of the interface with Eva.
+Currently working on the rough HTML for the Search pages layout, with intention to have it finished today.
+Went through all of the remaining relevant details of front-end implementation with Bailey, remaking the JobSearch page from scratch as a testing ground.
+Worked on the CandidateSearch page, created the placeholder elements in CandidateSearch for new filtering fields.
+Candidate search by all of the parameters except for gender and education.
+Candidate search gender and education (with Chris).
+
+==========
+= Week 9 =
+==========
+Finished CandidateSearch and JobSearch (together with Bailey) for the demo.
+Started changing layout of the JobSearch page.
+Discussed with the team the current design issues and plans for the following sprint.
+Posted the development plan on Trello; task assignment.
+Finished collecting the current issues.
+Had a call to conclude yesterday's discussion about the development plans.
+Devised and posted the development plan for the next two weeks.
+Partially cleaned up the Bitbucket 'issues' section.
+Finished updating the Bitbucket issues. Did a big update on Trello. Started working on adding the tab view to the registration page.
+Conducted a call. Did a preliminary overview of the work required on the codebase (mostly front-end).
+Met with Bailey to discuss and work on the front-end overhaul. Finished collaboratively adding tab view to the reregistration.
+
+====================
+= Week 10 [+break] =
+====================
+Helped Eva with the development of the main page.
+The group meeting and task adjustments. A few non-significant touches to the registration layout.
+Made tabs appear at the top of the form.
+Group discussion in the text format, task allocation.
+Worked on code refactoring and untangling of CSS in the front-end, theme, and remaking the logo with Eva. Some layout changes and changes to the input forms on the registration page.
+Worked on the development plan; some changes to the Registration; some on the go fixes during the lab; changes to the CandidateProfile file uploading.
+
+==============
+= Week 11-12 =
+==============
+-Major focus on coding and organisation, but no recorded updates due to the time shortage.-
+-Can be retrieved from Bitbucket commit history and Trello.-

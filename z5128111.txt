@@ -1,0 +1,173 @@
+Week 2
+
+Investigated frameworks for web development
+Did Django tutorial https://docs.djangoproject.com/en/2.0/intro/
+Discussed preliminary project plan with team
+Did Django REST API tutorial https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1
+Did Django REST API tutorial http://www.django-rest-framework.org/tutorial/1-serialization/
+Started work on the back end prototype.
+
+Week 3
+
+Did further development of the back end.
+Made my first tiny change to the front end - selecting gender from a dropdown list.
+Continued my studies of Django REST.
+Discussed API design with other team members.
+Edited the project proposal to improve grammar and readability.
+
+Week 4
+
+Improved skill support.
+Switched to a custom user model with no username, only email address.
+Added user authentication to the API.
+Made the register page in the front end call our API.
+Added JobPost, JobSkill, and JobMatch classes.
+
+Week 5
+
+Discussed development plan with team and recorded issues in BitBucket.
+Added a file uploading function to the API
+Improved our user model
+Added permissioning to the API to prevent users from creating, modifying, or deleting things that they do not own (profiles, job posts, etc.)
+Allow users to register as either job candidates or recruiters.
+Return the full user record in the registration and login responses for the benefit of the front end.
+Serialize the skill details along with the JobSkill class, and the contact person details along with the JobPost class.
+Fixed some bugs and made other small enhancements to the back end.
+Added a basic job posting form and enhanced the registration form in the front end.
+Fixed a bug in the front end caused by some URLs not having trailing slashes. (This only affected some browsers.)
+
+Week 6
+
+Improved user registration form.
+Improved candidate skill editing form and fixed numerous bugs.
+Figured out how to run our system using PostgreSQL database instead of SQLite. Added PostgreSQL settings.
+Added candidate profile editing to the candidate profile page.
+Added a form for changing user passwords.
+Improved the file uploading support in the back end.
+Added file downloading, deletion, and listing support to the back end.
+Made a few small miscellaneous improvements to back end.
+Added a document management system to allow users to upload, download, and delete documents. It also saves document metadata, which can be edited as needed. We will use these documents (University Transcripts, certificates, etc.) to provide evidence of skills.
+Added a way for users to upload photographs to use as their avatars in the system.
+Discussed development plan with team and helped Eva to get started.
+
+Week 7
+
+Wrote a Python program to convert a spreadsheet of skill definitions into SQL for populating our database.
+Improved the avatar photo handling.
+Removed obsolete pages from the front end.
+Implemented our job matching function, which finds the most suitable candidates for a posted job.
+Added many more filtering options to CandidateViewSet.get_queryset and JobPostViewSet.get_queryset.
+Added minimum salary to Candidate. Use this to when matching candidates to jobs, to avoid offering candidates jobs that don't pay enough.
+Added education fields to Candidate and JobPost, which can be used to filter candidates for jobs.
+Allow candidates to enter their length of experience at each skill.
+Allow recruiters to specify the required length of experience at each skill for a job. This is used by the matching function.
+Added a mechanism to attach uploaded documents to candidate's skills to provide documentary evidence.
+Turned on more detailed logging so that we can see the SQL that Django generates. This will help us debug and optimize the application.
+Added filtering by job or candidate to JobMatchViewSet.
+Made the matching function delete old matches that no longer match the job requirements, but only if neither the candidate nor the recruiter has acted on the match.
+Made some improvements to the layout of the candidate profile page.
+Fixed a few bugs in the job editing on the recruiter profile page.
+Changed fields that should not be negative from IntegerField to PositiveIntegerField.
+Discussed design and development plan with the team, and helped Kate to get started with coding.
+Entered a number of new issues in BitBucket.
+
+Week 8
+
+Did some of the initial front end work to get our jobs search page working.
+Added a button to automatically find matching candidates for a job post.
+Made a lot of the code changes related to renaming our existing Recruiter class to Employer and adding a new Recruiter class.
+Added a company field to the Employer class, and the front end code to set and update it.
+Added looking_for_work field to Candidate class, and the front end code to set and update it.
+Made automatic job matching skip candidates who are not looking for work.
+Added a function to allow users to manually match candidates to jobs.
+Added created_by field to JobMatch class, to keep track of who created manual job matches.
+Added the necessary back end functionality for candidates and employers to accept or decline job matches.
+Now display an error message in the front end if photo uploading fails for some reason. (Usually because it's too big.)
+Fixed various bugs in both the front and back ends.
+Put back some code that was accidentally overwritten by other people's commits.
+Discussed design and development at length with the team.
+
+Week 9
+
+Added filtering of job matches by state (accepted by employer, rejected by employer, etc.)
+Cleaned up some unused code.
+Enhanced the backend user registration function to validate the user fields before doing anything. This avoids the possibility of user registration failing part way through updating the database, which left the user unable to finish registration even if they fixed the invalid field.
+Fixed a few bugs.
+Made a few small improvements to the UI.
+
+Break Week
+
+Met with the team and discussed design and implementation issues.
+Added 3 new ViewSets to the back end API: JobPostAndSkillsViewSet, JobMatchAndCandidateViewSet, and JobMatchAndPostViewSet. These allow associated objects to be retrieved together with a single request to the API, which simplifies the front end code and greatly improves performance.
+Modified the front end code to use the new ViewSets described above.
+Removed some obsolete code.
+Enhanced our JobSkill class in the back end so that less work needs to be done in the front end code.
+Added filtering of job matches by contact person (i.e. employer).
+Made various aesthetic improvements to the front end.
+Overhauled the way that skills are added, modified, and deleted. All changes are now initially made locally, and only sent to the back end after clicking a "Save Changes" button. Changes can be reverted by clicking a different button. This is easier to use than the earlier system of having to click a separate update button for each skill, and reduces the number of messages sent to the back end.
+Fixed broken registration link and added "Sign In" link to the home page.
+Tidied up some code.
+
+Week 10
+
+Improved the way that skill requirements are set for job posts. All skill edits are now made locally, and only sent to the back end after clicking a "Save Changes" button.
+Improved our skill tree implementation to only load skills from the back end the first time a subtree is opened, rather than every time it is opened or closed.
+Added filtering of job posts by minimum and maximum salary rather than just minimum salary.
+Removed a non-functional "Dashboard" bar in the Employer Profile page, which did nothing except take up space.
+Changed our password form into a shared component so that we can use it from the Candidate, Employer, and Recruiter Profile pages rather than duplicating code.
+Fixed the Change Password link in EmployerProfile, which was broken.
+Fixed error handling when changing password.
+Added filtering of job matches by job and state.
+The candidate search form had no way to turn off filtering by gender. Fixed.
+Added support for telephone numbers.
+Added more useful information to our job and candidate cards. Removed meaningless badges from the cards.
+Added a form to show the detailed information for a candidate, which is accessed by clicking on the candidate's photo on the candidate card.
+Improved the sorting of job matches (which was added by Bailey) and added sorting by more fields.
+Stopped the CandidateSerializer (in the back end) from serializing skills - we were always loading skills separately anyway, because we need extra information.
+Fixed a number of bugs.
+Removed some unused code, and re-indented and tidied up some code.
+
+Week 11
+
+Discussed plan for the final week of development with the team.
+A lot of CSS was duplicated between different files in the front end. Reorganized this into a single file called skillstash.css which can be included from all the source files that need it.
+Fixed some layout problems on candidate profile form.
+Added candidate's suitability score to the candidate card which employers and recruiters see. Added sorting by suitability score.
+Show the job match state (No Action Taken, Employer Interested, etc.) on the job and candidate cards.
+Changed the CSS for the user's avatars (profile photos) to keep the aspect ratio correct.
+Added a job details form, which candidates can view by clicking on the employer's photo in the job match card. This is similar to the candidate details form.
+Added the full functionality for candidates and employers to express interest in or decline job posts, for employers to offer jobs and withdraw job offers, and for candidates to accept or decline job offers. Added the code to mark the corresponding job as filled when someone is hired.
+Added filtering and sorting functionality to the job match form on the candidate profile page.
+Fixed a race condition bug which often prevented the "matched" icons from displaying correctly for job posts.
+Added filtering and sorting of job posts in the employer profile page.
+Added a link to the user's profile page to the home page, as well as a "Sign Out" link, if a user is logged in. Made it only show the "Sign in" and "Register" links if no user is logged in.
+Added an error message in the event of file upload failure.
+Added a button for users to remove their profile avatars.
+Virtually none of the functionality on the recruiter page was working. Fixed the most serious bugs and got the basic functionality working.
+Fixed several back end bugs that affected recruiters.
+Made numerous layout and usability improvements to the front end.
+Convert all email addresses to lower case when they are entered.
+Removed a lot of dead code, variables, and CSS. Made many code changes for clarity, such as renaming functions and variables to be more descriptive of their purpose. Simplified and improved some of the front end code.
+Write about half of the text for the user manual.
+
+Week 12
+
+Finished implementing and debugging the recruiter page. Added a feature to allow recruiters to match candidates to jobs. Made numerous layout and usability improvements to this page.
+Removed unnecessary popup messages, which were probably meant only to help debugging.
+Removed non-functional favourites functionality from employer page.
+Conducted final demo.
+Fixed some bugs that caused search functions to use checkboxes from the wrong skill trees. For example, if a candidate added some skills to his profile and then search for a job, the jobs would be filtered by the skills that he just added.
+Removed some dead code.
+Added filtering of JobPosts by state.
+Made the job search only show active jobs.
+Removed a huge number of unused images from our project. This will greatly reduce the size of our submission.
+Prepared a set of demonstration data to include in our submission, to make the system easier to test.
+Wrote a shell script to automatically set up our system with the demonstration data.
+Wrote the readme.txt file that explains how to prepare, configure, and run our system.
+Added a way to see a detailed view of a job post from the job search results.
+Added validation to prevent users trying to create duplicate manual matches.
+Added front end validation for user profile updates and job posting, to detect invalid input before sending it to the back end.
+Wrote a script to create the project.tgz file for submission.
+Improved the layout of the job search results.
+Added the ability to specify both minimum and maximum education requirements when searching for jobs.
+Proof-read the final report and suggested some improvements and corrections.

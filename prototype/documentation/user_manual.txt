@@ -1,0 +1,105 @@
+- SkillStash -
+--------------
+SkillStash is a web application that allows you to have a consistent electronic portfolio throughout your life, study, and career - or, if you are looking for the right person to do a job - to find the best matching candidate for it. SkillStash provides an extensive system to have a full tracking record of skills people obtain throughout their life and career, and a simple way to prove and review them.
+
+- Homepage -
+------------
+The first thing you see is a homepage.
+Here, you are greeted by the SkillStash logo and offered access to the navigation panel. From it, you can either click "Sign In", which would redirect you to the sign in page; "Register", allowing you to complete registration; and also see the information about the SkillStash goal, functionality, and (currently abstract) company contact details, if you are interested in them.
+
+If you are signed in, the options differ slightly - and, instead of sign in / registration, you can "Sign Out" of the current user profile.
+
+- Registration -
+----------------
+There are 3 types of users that our system supports, and you can register as one of them:
+1. Job candidate - a person for whom the electronic portfolio functionality is available. They can specify their skills and look for jobs, posted in the system, that best suit them.
+2. Employer - this is a representative of a company, who has the ability to post jobs, and also look for people to fill created positions.
+3. Recruiter - this is an authorised person, potentially from a recruiting company, who is not able to post jobs, but can match suitable candidates with already existing job posts.
+
+Whatever the user type, you are asked to provide your first name (where you can specify your middle name as well, if needed), last name, email address, contact phone number (optional), and the city where you currently live/are looking for work/your company is located. You also need to provide and verify your password, which should contain at least 8 characters.
+
+If you are a candidate, you are also required to provide your date of birth. You may also specify your highest level of education, gender (if willing), minimum annual salary, and whether or not you are currently looking for work.
+
+Employers and recruiters are asked to provide details about their company - namely, its name and website.
+
+You also need to agree to the terms and conditions, as the handling of personal details implies. But, as the legal issues are not part of the development task itself, the agreement is an abstract one - though still required.
+
+After all fields have been correctly filled in, you can click "Register", so as to proceed to your now-registered profile.
+
+Alternatively, if you have got to the registration page by accident, and already have an account you wish to use, there is a redirection link to the sign in page.
+
+- Signing In -
+--------------
+The process is rather straightforward: there are two fields you need to fill in - your email address and your password. When you have done so correctly, and if such account is indeed registered in the system - than you will be redirected to your respective profile.
+
+A link to the registration page is also provided.
+
+- Managing your profile -
+-------------------------
+After you have successfully registered or logged in, you are redirected to your profile page. Depending on the user type, these differ in functionality, but there are some commonalities as well.
+
+You can update any of the fields in your user profile at any time. To do so, simply click on "Profile" on the side bar, edit the appropriate field(s), and click the "Update Profile" button. You can also add an avatar image, which will be visible to any other users who view your profile. To set your avatar, simply click on the default avatar (a head and shoulders silhouette) on the profile editing form, and a file selector dialog will appear. You can use image files in any of the common formats with a maximum size of 512 kilobytes. You may change your avatar at any time, or remove it by clicking the "Remove Avatar" button, which appears after your avatar has been set.
+
+- Candidate -
+-------------
+- Managing your documents -
+---------------------------
+SkillStash allows you to upload documents to provide evidence for your skills. These can be professional certifications, academic transcripts, letters of recommendation, or any other document that you think can serve as evidence. Any employer or recruiter who views your profile will be able to download these documents, so please do not upload anything that you wish to keep confidential. There is no restriction on the number or type of documents that can be uploaded, but the total size of your uploaded documents is limited to 100 megabytes.
+
+To upload a document, click on "Manage my documents" on the sidebar. This will take you to the document management page. The upper part of this page ("Upload a Document") is for uploading new documents. Simply click on the “Choose File” button to open a file selector dialog and select a file. You can then select the document type from a dropdown menu, and enter a description for the document. Finally click the “Upload” button to upload the file to SkillStash.
+
+The lower part of the page ("My Uploaded Documents") lists the documents that you have uploaded. You can change the document types or edit their descriptions here. Simply make the changes in the list, and click the tick icon at the end of the table row to save the changes. You can also delete a document by clicking the  delete (x) icon. SkillStash will ask you for confirmation before deleting the document, to prevent accidental deletions.
+
+Managing your skills-
+---------------------
+In order for SkillStash to match you to available jobs, it needs to know your skills. To enter your skills, click on "Manage my skills" on the sidebar to show the skill management page.
+
+The left hand side of the page (“All Skills”) shows the skill categories and skills that are recognised by the system. Skills are arranged in a hierarchical manner, with a several top-level skill categories, each of which contains a number of sub-categories, which may in turn  contain sub-sub-categories, and so on. Under “All Skills”, you will initially see the five top-level categories. To see the sub-categories under a category, click the + icon to the left of the category.
+
+The right hand side of the page (“My Skills”) contains a table listing the skills that you have added.
+
+To add one or more skills, select them in the “All Skills” hierarchy, then click the “Add selected skills” button under the “My Skills” table. For example, to add Django to your skills you would first expand the “Technical & Knowledge Skills” category, then expand the “Computer Science”, “Frameworks”, and “Web development” categories, click the checkbox next to “Django”, and finally click “Add selected skills”. Django will then appear in your “My Skills” table.
+
+After adding a skill, you need to enter your proficiency on a scale from 1 to 5, and your length of experience in years or months. You may also select one or more of your uploaded documents to provide evidence for the skill. You can do this using the controls in the “My Skills” table. You can also remove a skill by clicking the delete (x) icon on the right of the table.
+
+None of the changes to your skill list are saved until you click the “Save Changes” button below the table. If you make a mistake and wish to undo your changes, you can click the “Revert Unsaved Changes” button, which will return your skill list to its last saved state.
+
+
+- Profile: Employer -
+---------------------
+- Job Posts -
+-------------
+Clicking on “Job Posts” on the sidebar takes you to the Job Post page. The top of the page has a form for posting new jobs. To post a job, simply enter the details in the dialog and click the “Post Job” button. You can enter a minimum education requirement for the job, ranging from high school to a Ph.D. If you do not care about a candidate’s education, you can choose “No Requirement”.
+
+The lower part of the page lists the jobs that you have posted. Above the list is a a toolbar which allows you to choose the filtering and sorting options for the job posts. By default only active job posts (those that have not been withdrawn or filled) are shown.
+
+Each job post is shown on a separate “card”. The top of the card shows its name, city, the date it was posted, and its current state.
+
+There is an edit icon on the top right of the card, which opens an editing form to update the job post. There is also a delete (x) icon, which deletes the job post after asking for confirmation. Note that you cannot delete job posts once matches have been created.
+
+Before SkillStash can match candidates to your job, you need to enter the required skills. The controls to do so are in the lower part of each job card. The left hand side of the card (“All Skills”) shows the skill categories and skills that are recognised by the system. Skills are arranged in a hierarchical manner, with a several top-level skill categories, each of which contains a number of sub-categories, which may in turn  contain sub-sub-categories, and so on. Under “All Skills”, you will initially see the five top-level categories. To see the sub-categories under a category, click the + icon to the left of the category.
+
+The right hand side of the page (“Skill Requirements”) contains a table listing the required skills that you have chosen for the job.
+
+To add one or more skills, select them in the “All Skills” hierarchy, then click the “Add selected skills” button under the “Skill Requirements” table. For example, to add Django you would first expand the “Technical & Knowledge Skills” category, then expand the “Computer Science”, “Frameworks”, and “Web development” categories, click the checkbox next to “Django”, and finally click “Add selected skills”. Django will then appear in the job post’s “Skill Requirements” table.
+
+You need to enter some additional parameters for each skill. The first is the priority, which specifies how important the skill is for the job, on a scale of 1 to 5. A higher number means more important. The next parameter is the required level of proficiency for the skill. It is also measured on a scale of 1 to 5, with a higher number meaning more proficient. You can also optionally specify a minimum length of experience in months or years. If you do not care about length of experience, you can leave this parameter at 0, and it will be ignored.
+
+You set these parameters using the controls in the “Skill Requirements” table. You can also remove a skill requirement by clicking the delete (x) icon on the right of the table. None of the changes to the skill requirements are saved until you click the “Save Changes” button below the table. If you make a mistake and wish to undo your changes, you can click the “Revert Unsaved Changes” button, which will return the requirements to their last saved state.
+
+- Profile: Recruiter & Employer -
+---------------------------------
+- Matching Candidates to Jobs -
+-------------------------------
+
+After all of the necessary skills for the job have been entered, if you are logged in as an employer, you can click on the “Automatically Find Candidates” button to match potential candidates to your job. Alternatively, if you are a recruiter, you can also do a manual matching via selecting a candidate in candidate search, a job in job search, and matching them. If they do not fulfil all of the required criteria, you will be warned, but would still be able to proceed.
+
+SkillStash’s automatic job matching algorithm only considers candidates in the same city as the job, who have at least the required level of education. It excludes candidates who have specified a minimum acceptable salary below the salary for the job. (If the pay is per hour, day, or month, it is converted to an equivalent annual salary for this purpose.)
+
+Priority 5 skills are considered essential, so only candidates who posses these skills at the required proficiency level, with the required length of experience, are considered.
+
+After finding the suitable candidates with all the priority 5 skills, SkillStash assigns a suitability score to each candidate. For each relevant skill that the candidate possesses, they are assigned a score equal to the priority of the skill multiplied by the candidate’s proficiency. The candidate’s total score is equal to the sum of the scores for all the skills in the job post. Skills which are more important for the job therefore have a larger effect on the scores. Skills which are not listed in the job post are not used in the calculation.
+
+After scoring the candidates, SkillStash creates at most 10 job matches. If more than 10 candidates meet the essential requirements for the job, it chooses those with the highest scores.
+
+If job matches already exist for some of these candidates, SkillStash will update their scores. Scores may change because either the job requirements or the candidate’s skills have been updated.

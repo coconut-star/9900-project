@@ -1,0 +1,47 @@
+Week2
+
+Formed group with other 3 team members. We defined the scope of the project and decided the techniques we are going to use.
+Since I have experience of frontend developing, I am going to take the frontend part.
+For next step, We plan to make an App prototype before next Lab class.
+Impletmented all pages in the mockup.
+
+Week3
+Finished prototype as planned, focus on frontpage building.
+Had a meeting and finished the proposal.
+Added new login page and register page.
+
+Week4
+Do not have too much code update this week, because I had two coding assiments to due for other courses.
+Improved register page, it is able to redirect to profile page. Add frontend validation so that it is more user friendly to display register errors. 
+
+Week5
+Built different profile page for both candidates and recruiters, now the login page could redirect different users to their page automatically.
+Impletmented tree structure to support skill trees. Impletmented pages for job posting, recruiters could post job and attach skill requirements correctly, candidates could view the post and requirements.
+Resolve bugs to prapate for demo in week6.
+
+Week6
+Demoed our work during Tuesday.
+Kept improving the interface of existed pages.
+Enhanced job posting page, employers can add priority and proficiency requirements to posted jobs.
+Refactored some conky pages with new css:
+1. Re-make the profile page of users, now it has a fancy animation and good-looking interface.
+2. Fixed some known layout bugs.
+
+Week7
+Build a front-end interface for job matching and finish the related bussiness logic for it. Improved the interface for candidate profile and recruiter interface. 
+Build some new sub components for jobs and candidates display.
+Refactored front-end logic.
+
+Week8
+Do not have too much code update this week, working on other assiments.
+Did some style refactors.
+
+Week10
+Demo and bug fixing.
+
+Week11
+Adjusted the styles to keep all pages consistent.
+
+Week12
+Feature freezed, so did bug fixing and prepared final report.
+

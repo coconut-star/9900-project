@@ -1,0 +1,60 @@
+Week 2
+Have formed a team. Assigned role of SCRUM Master to Kate Tsypkaykina
+I have initieted the first stage of the project and created UML class and sequesnce diagrams and mockups for the first backlog.
+Started working on the report for proposal
+Had additional team meeting on Wednesday to clarify all the details.
+Decided to work through Django tutorials before tuesday next week to have the common knowledge about the framework. 
+
+Week 3
+3 stages of Proposal writing and editing, 
+Planned 4 epics and created the concept of the system datastorage and search and analyzing.
+Draw the mockups for web app
+Went through the gjango framework tutorials
+
+Week 4
+Mockups, methodology for posting jobs, matching jobs and cadidates are done, 
+the architecture for the core part of the backend. 
+Django rest api tutorial, first diving into the processes and the interface.
+
+Week 5
+Demo preparation, Django serialization tutorial,
+Finalizing architechure and workflows of the system,
+Group call with splitting the tasks and the full installation and integration of all the system.
+
+Week 6
+Matching functionality backend code for the search of the potential candidates
+Matching functionality backend for the search of potential jobs, 
+data preparation for testing and demo
+
+Week 7
+Start of Main page design, main page backend, logo design, 
+Adding a third user (rebuilding recruiter into employer profile,
+Reengineering of a new recruiter profile) 
+Fixing Git isseues
+
+Week 8
+Methodology revised, several modifications into the architecture,
+Started working on favourites, 
+Continuing developing Main Page backend and starting frontend, and its integration with other pages
+
+Week 9
+Main page frontend and backend are done, 
+Fixing and polishing Main page, fixing issues with BitBucket,
+Brandig for all pages is done, favourites' backend is done.
+
+Week 10
+Demo is prepared, Favourites adding for candidates (frontend) done, fixing CSS's and minor bugs
+Favourites backend for candidates and jobs is fixed and debugged
+
+Week 11
+Starting working on documentation
+Preparing demo scenario, fixing issues with BitBucket
+Working on frontend for favourites for jobs, fixing serialization and CSS.
+Polishing and preparing system for demo, finalizing UI, fixing bugs, 
+
+Week 12
+Polishing and preparing system for demo, finalizing UI, fixing bugs, working on demo scenario
+Preparing project report, gathering all the documentation,
+Finalizing project report.
+
+

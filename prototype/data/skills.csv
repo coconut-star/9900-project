@@ -1,0 +1,120 @@
+Category,Name,Description,Type
+Root,Leadership & Management,Leadership & Management,Category
+Root,Personality skills,Personality skills,Category
+Root,Communication,Communication,Category
+Root,Analysis & Research,Analysis & Research,Category
+Root,Technical & Knowledge Skills,Technical & Knowledge Skills,Category
+Leadership & Management,Motivation,How good are you at motivating other people?,Leaf
+Leadership & Management,Public speaking,How good are you at public speaking?,Leaf
+Leadership & Management,Self-awareness,How would you postion the level of your self awareness?,Leaf
+Personality skills,Willing to learn,How would you rate your ability to learn?,Leaf
+Personality skills,Flexibility,How adaptable are you?,Leaf
+Personality skills,Independent,How independent are you?,Leaf
+Personality skills,Discipline,How would you rate your discipline skills?,Leaf
+Personality skills,Creativity,How creative are you?,Leaf
+Personality skills,Organization,How well are you organized?,Leaf
+Personality skills,Positivity,How positive are you?,Leaf
+Personality skills,Imagination,How good is your imagination?,Leaf
+Personality skills,Punctual,How punctual are you?,Leaf
+Communication,Body Language,How good are you in managing your body language?,Leaf
+Communication,Networking,Now good are you at networking?,Leaf
+Communication,Accepting criticism,How well do you accept critic?,Leaf
+Communication,Teamworker,How good are you at teamwork?,Leaf
+Communication,Listening,Are you a good listener?,Leaf
+Communication,Helpful,How helpful are you?,Leaf
+Communication,Loyal to differences,Do you embrace diversity?,Leaf
+Communication,Languages,,Category
+Languages,Arabic,,Leaf
+Languages,Bengali,,Leaf
+Languages,Chinese,,Leaf
+Languages,English,,Leaf
+Languages,French,,Leaf
+Languages,German,,Leaf
+Languages,Hindi,,Leaf
+Languages,Italian,,Leaf
+Languages,Japanese,,Leaf
+Languages,Korean,,Leaf
+Languages,Portuguese,,Leaf
+Languages,Punjabi,,Leaf
+Languages,Russian,,Leaf
+Languages,Spanish,,Leaf
+Languages,Turkish,,Leaf
+Languages,Vietnamese,,Leaf
+Analysis & Research,Mathematics,How good are you at math?,Leaf
+Analysis & Research,Conceptual thinking,How well is your conceptual thinking developed?,Leaf
+Analysis & Research,Critical thinking,How well is your critical thinking developed?,Leaf
+Analysis & Research,Speedreading,How fast do you read?,Leaf
+Analysis & Research,Information search,How good are you at information search?,Leaf
+Analysis & Research,Logic,How good are you at logic?,Leaf
+Technical & Knowledge Skills,Computer Science,,Category
+Computer Science,Operating Systems,,Category
+Computer Science,Programming languages,,Category
+Computer Science,Frameworks,,Category
+Frameworks,Mobile development,,Category
+Frameworks,Web development,,Category
+Mobile development,Android,,Leaf
+Mobile development,iOS,,Leaf
+Mobile development,React,,Leaf
+Mobile development,Xamarin,,Leaf
+Web development,.NET,,Leaf
+Web development,Django,,Leaf
+Operating Systems,FreeBSD,,Leaf
+Operating Systems,Linux,,Leaf
+Operating Systems,Solaris,,Leaf
+Operating Systems,Microsoft Windows,,Leaf
+Programming languages,C,,Leaf
+Programming languages,C++,,Leaf
+Programming languages,Python,,Leaf
+Programming languages,Java,,Leaf
+Programming languages,Perl,,Leaf
+Programming languages,Pascal,,Leaf
+Programming languages,Prolog,,Leaf
+Programming languages,C#,,Leaf
+Programming languages,Scala,,Leaf
+Programming languages,SQL,,Leaf
+Programming languages,R,,Leaf
+Programming languages,SWIFT,,Leaf
+Technical & Knowledge Skills,Mining,,Category
+Mining,Oil,,Leaf
+Mining,Gas,,Leaf
+Mining,Coal,,Leaf
+Mining,Lithium,,Leaf
+Mining,Gold,,Leaf
+Mining,Copper,,Leaf
+Mining,Iron,,Leaf
+Technical & Knowledge Skills,Construction,,Category
+Construction,Architecture,,Leaf
+Construction,Design,,Leaf
+Construction,Engineering,,Leaf
+Construction,Building worker,,Leaf
+Construction,Project planning,,Leaf
+Technical & Knowledge Skills,Design,,Category
+Design,Art,,Leaf
+Design,3D,,Leaf
+Design,Video,,Leaf
+Design,Fashion,,Leaf
+Design,VR,,Leaf
+Technical & Knowledge Skills,Marketing,,Category
+Marketing,PR,,Leaf
+Marketing,Digital Marketing,,Leaf
+Marketing,Operational marketing,,Leaf
+Marketing,Copywriting,,Leaf
+Marketing,TV commercials management,,Leaf
+Technical & Knowledge Skills,Chef,,Leaf
+Technical & Knowledge Skills,Healthcare,,Leaf
+Technical & Knowledge Skills,Agriculture,,Leaf
+Technical & Knowledge Skills,Chemistry,,Leaf
+Technical & Knowledge Skills,Aerospace,,Leaf
+Technical & Knowledge Skills,Military,,Leaf
+Technical & Knowledge Skills,Education,,Leaf
+Technical & Knowledge Skills,Energy,,Leaf
+Technical & Knowledge Skills,Entertainment,,Leaf
+Technical & Knowledge Skills,Financial Services,,Leaf
+Technical & Knowledge Skills,Food,,Leaf
+Technical & Knowledge Skills,Hospitality,,Leaf
+Technical & Knowledge Skills,Media,,Leaf
+Technical & Knowledge Skills,Manufacturing,,Leaf
+Technical & Knowledge Skills,Telecommunication,,Leaf
+Technical & Knowledge Skills,Transport,,Leaf
+Technical & Knowledge Skills,Water,,Leaf
+Technical & Knowledge Skills,Direct Selling,,Leaf
